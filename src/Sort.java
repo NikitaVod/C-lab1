@@ -123,8 +123,8 @@ public class Sort {
 
     //заполнение матрицы рандомными значениями
     public static void rand (int[][] matrix) {
-        for (int i=0; i<10; i++) {
-            for (int j=0; j<10; j++) {
+        for (int i=0; i<1000; i++) {
+            for (int j=0; j<1000; j++) {
                 matrix[i][j] = ((int) (Math.random()*30)-15);
             }
         }
